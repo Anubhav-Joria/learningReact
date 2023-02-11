@@ -1,23 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import FormHandling from "./components/FormHandling";
+import React from "react";
+import "./App.css";
+import FormHandlingObj from "./components/FormHandlingObj";
+import Promises from "./components/Promises";
+import EventBubbling from "./components/EventBubbling";
+import Refs from "./components/Refs";
+import A from "./components/Context/A";
+import { UserProvider } from "./components/Context/CreateContext";
+import Effect from "./components/Effect";
+import ReducerHook from "./components/ReducerHook";
+// import Parent from "./components/IncrementFromChild/Parent";
+import RenderList from "./components/Excercise/RenderList";
+import Watch from "./components/Stopwatch/Watch";
+import ShowHide from "./components/ShowHide/ShowHide";
+import Disable from "./components/DisableButton/Disable";
+import Parent from "./components/UpdateParentFromChild/Parent";
+import Child from "./components/UpdateParentFromChild/Parent";
+import Sum from "./components/SumOfNumbers.jsx/Sum";
+import Api from "./components/Api"
+import Comment from "./components/Comment/Comment";
+import FromValidation from "./components/FormValidation/FromValidation";
+import { Typography } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Typography variant="h6">Learning React</Typography> */}
+      {/* <FormHandling/>  */}
+      {/* <FormHandlingObj/> */}
+      {/* <Promises />  */}
+      {/* <EventBubbling/> */}
+      {/* <Refs/> */}
+      {/* Creating user Provider and Calling the parent component in App.js*/}
+      {/* <UserProvider value="anubhav">
+        <A/>
+      </UserProvider> */}
+      {/* <Effect/> */}
+    {/* <ReducerHook/> */}
+    {/* <Parent/> */}
+      {/* <RenderList/> */}
+    {/* <Watch/> */}
+    {/* <ShowHide/> */}
+      {/* <Disable/> */}
+      {/* <Parent/> */}
+      {/* <Sum/> */}
+      {/* <Api/> */}
+      {/* <Comment/> */}
+
+      <FromValidation/>
+      
     </div>
   );
 }
