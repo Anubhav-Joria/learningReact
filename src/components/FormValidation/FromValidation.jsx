@@ -16,8 +16,19 @@ function FromValidation() {
   const Formik = useFormik({
     initialValues: initialValues,
     validationSchema: userSchema,
-    onSubmit: (values) => {
-      console.log(values);
+    onSubmit: (values,actions) => {
+      alert("Form submitted successfully");
+      actions.resetForm({
+        values:{
+          name: "",
+          age: "",
+          email: "",
+          phonenumber: "",
+          password: "",
+          company: "",
+        }
+
+      });
     },
   });
   console.log(Formik.handleBlur);
