@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { TextField, Button, Typography } from "@mui/material";
-import 
 function Comment() {
   const [comments, setComments] = useState(["Add Comments"]); // all comments
   const [comment, setComment] = useState(""); 

@@ -17,10 +17,12 @@ import Disable from "./components/DisableButton/Disable";
 import Parent from "./components/UpdateParentFromChild/Parent";
 import Child from "./components/UpdateParentFromChild/Parent";
 import Sum from "./components/SumOfNumbers.jsx/Sum";
-import Api from "./components/Api"
+import Api from "./components/Axios/Api";
+import AxiosCancellation from "./components/Axios/AxiosCancellation";
 import Comment from "./components/Comment/Comment";
 import FromValidation from "./components/FormValidation/FromValidation";
 import { Typography } from "@mui/material";
+import SessionTimeout from "./components/SessionTimeout";
 
 function App() {
   return (
@@ -46,8 +48,10 @@ function App() {
       {/* <Sum/> */}
       {/* <Api/> */}
       <Comment/>
-
       {/* <FromValidation/> */}
+      {/* <AxiosCancellation/> */}
+      {/* <SessionTimeout/> */}
+
       
     </div>
   );
