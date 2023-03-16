@@ -45,9 +45,9 @@ function App() {
       {/* <Parent/> */}
       {/* <Sum/> */}
       {/* <Api/> */}
-      {/* <Comment/> */}
+      <Comment/>
 
-      <FromValidation/>
+      {/* <FromValidation/> */}
       
     </div>
   );
