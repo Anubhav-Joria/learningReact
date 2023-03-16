@@ -9,3 +9,4 @@ export const  userSchema = object({
     1000000000).max(99999999999),
   password : string().required().min(6)
 });
+
