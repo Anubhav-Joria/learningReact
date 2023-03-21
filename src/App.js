@@ -23,6 +23,8 @@ import Comment from "./components/Comment/Comment";
 import FromValidation from "./components/FormValidation/FromValidation";
 import { Typography } from "@mui/material";
 import SessionTimeout from "./components/SessionTimeout";
+import ParentSingleTon from "./components/SingleTon/Parent";
+import ThisKeyWord from './components/ThisKeyword'
 
 function App() {
   return (
@@ -47,12 +49,13 @@ function App() {
       {/* <Parent/> */}
       {/* <Sum/> */}
       {/* <Api/> */}
-      <Comment/>
+      {/* <Comment/> */}
       {/* <FromValidation/> */}
       {/* <AxiosCancellation/> */}
       {/* <SessionTimeout/> */}
-
-      
+      {/* <ParentSingleTon/> */}
+     
+      <ThisKeyWord/>
     </div>
   );
 }

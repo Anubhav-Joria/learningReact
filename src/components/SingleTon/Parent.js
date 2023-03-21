@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 
 import globalObj from "./index";
 
-function Parent() {
+function ParentSingleTon() {
   const initialColor = globalObj.getPropertyByName("color");
 
   const [color, setColor] = useState(initialColor);
@@ -47,4 +47,4 @@ function Parent() {
   );
 }
 
-export default Parent;
+export default ParentSingleTon;
