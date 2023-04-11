@@ -24,7 +24,8 @@ import FromValidation from "./components/FormValidation/FromValidation";
 import { Typography } from "@mui/material";
 import SessionTimeout from "./components/SessionTimeout";
 import ParentSingleTon from "./components/SingleTon/Parent";
-import ThisKeyWord from './components/ThisKeyword'
+import ThisKeyWord from "./components/ThisKeyword";
+import TestingAPI from "./components/TestingHTTP";
 
 function App() {
   return (
@@ -40,11 +41,11 @@ function App() {
         <A/>
       </UserProvider> */}
       {/* <Effect/> */}
-    {/* <ReducerHook/> */}
-    {/* <Parent/> */}
+      {/* <ReducerHook/> */}
+      {/* <Parent/> */}
       {/* <RenderList/> */}
-    {/* <Watch/> */}
-    {/* <ShowHide/> */}
+      {/* <Watch/> */}
+      {/* <ShowHide/> */}
       {/* <Disable/> */}
       {/* <Parent/> */}
       {/* <Sum/> */}
@@ -54,8 +55,9 @@ function App() {
       {/* <AxiosCancellation/> */}
       {/* <SessionTimeout/> */}
       {/* <ParentSingleTon/> */}
-     
-      <ThisKeyWord/>
+
+      {/* <ThisKeyWord/> */}
+      <TestingAPI />
     </div>
   );
 }
